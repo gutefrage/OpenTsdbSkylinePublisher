@@ -9,12 +9,11 @@ You might want to compile it with "mvn assembly:single" to have all dependencies
 
 Add these settings to your opentsdb.conf:
 
-tsd.core.plugin_path = <your plugin directory>
-tsd.rtpublisher.enable = true
-tsd.rtpublisher.plugin = net.gutefrage.tsdb.SkylinePublisher
-
-tsd.plugin.skyline.port = <skyline UDP port, normally 2025>
-tsd.plugin.skyline.host = <your skyline host>
+tsd.core.plugin_path = <your plugin directory>  
+tsd.rtpublisher.enable = true  
+tsd.rtpublisher.plugin = net.gutefrage.tsdb.SkylinePublisher  
+tsd.plugin.skyline.port = <skyline UDP port, normally 2025>  
+tsd.plugin.skyline.host = <your skyline host>  
 
 
 
